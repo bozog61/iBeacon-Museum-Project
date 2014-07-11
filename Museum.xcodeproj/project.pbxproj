@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C309CBB51903CC9B00417C47 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C309CBB41903CC9B00417C47 /* CoreLocation.framework */; };
+		C309CBB71903CCA300417C47 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C309CBB61903CCA300417C47 /* CoreBluetooth.framework */; };
+		C31BB1E51905AC3000CB1214 /* listBeaconTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31BB1E41905AC3000CB1214 /* listBeaconTableViewController.m */; };
+		C31BB1E81905ACF100CB1214 /* listBeaconTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C31BB1E71905ACF100CB1214 /* listBeaconTableViewCell.m */; };
+		C3220C40192688E800891316 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3220C3F192688E800891316 /* AudioToolbox.framework */; };
+		C3220C421926958B00891316 /* takip.png in Resources */ = {isa = PBXBuildFile; fileRef = C3220C411926958B00891316 /* takip.png */; };
+		C3220C451926A95300891316 /* uzaklikViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3220C441926A95300891316 /* uzaklikViewController.m */; };
+		C34A7166191ACB870096A427 /* positionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A7165191ACB870096A427 /* positionViewController.m */; };
+		C34A7169191ADA520096A427 /* positionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A7168191ADA520096A427 /* positionView.m */; };
+		C39B6A751928C12300C1CE4E /* cerceve.png in Resources */ = {isa = PBXBuildFile; fileRef = C39B6A741928C12300C1CE4E /* cerceve.png */; };
+		C39B6A771928C92A00C1CE4E /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = C39B6A761928C92A00C1CE4E /* me.png */; };
+		C39B6A7A1928DC6200C1CE4E /* detail2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39B6A791928DC6200C1CE4E /* detail2ViewController.m */; };
+		C39D8DBC190DA9ED0022E072 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D8DBB190DA9ED0022E072 /* detailViewController.m */; };
 		C3B0B866190279AF0044426B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B0B865190279AF0044426B /* Foundation.framework */; };
 		C3B0B868190279AF0044426B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B0B867190279AF0044426B /* CoreGraphics.framework */; };
 		C3B0B86A190279AF0044426B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B0B869190279AF0044426B /* UIKit.framework */; };
@@ -14,13 +27,15 @@
 		C3B0B872190279AF0044426B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B0B871190279AF0044426B /* main.m */; };
 		C3B0B876190279AF0044426B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B0B875190279AF0044426B /* AppDelegate.m */; };
 		C3B0B879190279AF0044426B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B0B877190279AF0044426B /* Main.storyboard */; };
-		C3B0B87C190279AF0044426B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B0B87B190279AF0044426B /* ViewController.m */; };
 		C3B0B87E190279AF0044426B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B0B87D190279AF0044426B /* Images.xcassets */; };
 		C3B0B885190279AF0044426B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B0B884190279AF0044426B /* XCTest.framework */; };
 		C3B0B886190279AF0044426B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B0B865190279AF0044426B /* Foundation.framework */; };
 		C3B0B887190279AF0044426B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B0B869190279AF0044426B /* UIKit.framework */; };
 		C3B0B88F190279AF0044426B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3B0B88D190279AF0044426B /* InfoPlist.strings */; };
 		C3B0B891190279AF0044426B /* MuseumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B0B890190279AF0044426B /* MuseumTests.m */; };
+		C3E5578D190C3DB000C728EE /* WebServis.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E5578C190C3DB000C728EE /* WebServis.m */; };
+		C3F07BC31905A2ED007A8F7A /* openingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F07BC21905A2ED007A8F7A /* openingViewController.m */; };
+		C3F07BC61905A497007A8F7A /* openingpicture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3F07BC51905A497007A8F7A /* openingpicture.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C309CBB41903CC9B00417C47 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C309CBB61903CCA300417C47 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		C31BB1E31905AC2F00CB1214 /* listBeaconTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = listBeaconTableViewController.h; path = ../listBeaconTableViewController.h; sourceTree = "<group>"; };
+		C31BB1E41905AC3000CB1214 /* listBeaconTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = listBeaconTableViewController.m; path = ../listBeaconTableViewController.m; sourceTree = "<group>"; };
+		C31BB1E61905ACF100CB1214 /* listBeaconTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listBeaconTableViewCell.h; sourceTree = "<group>"; };
+		C31BB1E71905ACF100CB1214 /* listBeaconTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listBeaconTableViewCell.m; sourceTree = "<group>"; };
+		C3220C3E192688E800891316 /* Museum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Museum.entitlements; sourceTree = "<group>"; };
+		C3220C3F192688E800891316 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C3220C411926958B00891316 /* takip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takip.png; sourceTree = "<group>"; };
+		C3220C431926A95300891316 /* uzaklikViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uzaklikViewController.h; path = ../uzaklikViewController.h; sourceTree = "<group>"; };
+		C3220C441926A95300891316 /* uzaklikViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = uzaklikViewController.m; path = ../uzaklikViewController.m; sourceTree = "<group>"; };
+		C34A7164191ACB870096A427 /* positionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = positionViewController.h; path = ../positionViewController.h; sourceTree = "<group>"; };
+		C34A7165191ACB870096A427 /* positionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = positionViewController.m; path = ../positionViewController.m; sourceTree = "<group>"; };
+		C34A7167191ADA520096A427 /* positionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = positionView.h; path = ../positionView.h; sourceTree = "<group>"; };
+		C34A7168191ADA520096A427 /* positionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = positionView.m; path = ../positionView.m; sourceTree = "<group>"; };
+		C39B6A741928C12300C1CE4E /* cerceve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cerceve.png; sourceTree = "<group>"; };
+		C39B6A761928C92A00C1CE4E /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		C39B6A781928DC6200C1CE4E /* detail2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = detail2ViewController.h; path = ../detail2ViewController.h; sourceTree = "<group>"; };
+		C39B6A791928DC6200C1CE4E /* detail2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = detail2ViewController.m; path = ../detail2ViewController.m; sourceTree = "<group>"; };
+		C39D8DBA190DA9ED0022E072 /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = detailViewController.h; path = ../detailViewController.h; sourceTree = "<group>"; };
+		C39D8DBB190DA9ED0022E072 /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = detailViewController.m; path = ../detailViewController.m; sourceTree = "<group>"; };
 		C3B0B862190279AF0044426B /* Museum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Museum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B0B865190279AF0044426B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C3B0B867190279AF0044426B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +81,17 @@
 		C3B0B874190279AF0044426B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C3B0B875190279AF0044426B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C3B0B878190279AF0044426B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C3B0B87A190279AF0044426B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C3B0B87B190279AF0044426B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C3B0B87D190279AF0044426B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C3B0B883190279AF0044426B /* MuseumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B0B884190279AF0044426B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C3B0B88C190279AF0044426B /* MuseumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MuseumTests-Info.plist"; sourceTree = "<group>"; };
 		C3B0B88E190279AF0044426B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3B0B890190279AF0044426B /* MuseumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuseumTests.m; sourceTree = "<group>"; };
+		C3E5578B190C3DB000C728EE /* WebServis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServis.h; sourceTree = "<group>"; };
+		C3E5578C190C3DB000C728EE /* WebServis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServis.m; sourceTree = "<group>"; };
+		C3F07BC11905A2ED007A8F7A /* openingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openingViewController.h; sourceTree = "<group>"; };
+		C3F07BC21905A2ED007A8F7A /* openingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openingViewController.m; sourceTree = "<group>"; };
+		C3F07BC51905A497007A8F7A /* openingpicture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = openingpicture.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +99,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C309CBB71903CCA300417C47 /* CoreBluetooth.framework in Frameworks */,
+				C309CBB51903CC9B00417C47 /* CoreLocation.framework in Frameworks */,
 				C3B0B868190279AF0044426B /* CoreGraphics.framework in Frameworks */,
 				C3B0B86A190279AF0044426B /* UIKit.framework in Frameworks */,
 				C3B0B866190279AF0044426B /* Foundation.framework in Frameworks */,
+				C3220C40192688E800891316 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +121,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C31BB1E91905ACF600CB1214 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				C31BB1E61905ACF100CB1214 /* listBeaconTableViewCell.h */,
+				C31BB1E71905ACF100CB1214 /* listBeaconTableViewCell.m */,
+			);
+			name = TableCell;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		C3B0B859190279AF0044426B = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +153,9 @@
 		C3B0B864190279AF0044426B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C3220C3F192688E800891316 /* AudioToolbox.framework */,
+				C309CBB61903CCA300417C47 /* CoreBluetooth.framework */,
+				C309CBB41903CC9B00417C47 /* CoreLocation.framework */,
 				C3B0B865190279AF0044426B /* Foundation.framework */,
 				C3B0B867190279AF0044426B /* CoreGraphics.framework */,
 				C3B0B869190279AF0044426B /* UIKit.framework */,
@@ -112,13 +167,30 @@
 		C3B0B86B190279AF0044426B /* Museum */ = {
 			isa = PBXGroup;
 			children = (
+				C3220C3E192688E800891316 /* Museum.entitlements */,
+				C31BB1E91905ACF600CB1214 /* TableCell */,
+				C3F07BC41905A487007A8F7A /* OtherFile */,
 				C3B0B874190279AF0044426B /* AppDelegate.h */,
 				C3B0B875190279AF0044426B /* AppDelegate.m */,
 				C3B0B877190279AF0044426B /* Main.storyboard */,
-				C3B0B87A190279AF0044426B /* ViewController.h */,
-				C3B0B87B190279AF0044426B /* ViewController.m */,
+				C3F07BC11905A2ED007A8F7A /* openingViewController.h */,
+				C3F07BC21905A2ED007A8F7A /* openingViewController.m */,
+				C31BB1E31905AC2F00CB1214 /* listBeaconTableViewController.h */,
+				C31BB1E41905AC3000CB1214 /* listBeaconTableViewController.m */,
+				C39D8DBA190DA9ED0022E072 /* detailViewController.h */,
+				C39D8DBB190DA9ED0022E072 /* detailViewController.m */,
+				C39B6A781928DC6200C1CE4E /* detail2ViewController.h */,
+				C39B6A791928DC6200C1CE4E /* detail2ViewController.m */,
+				C3220C431926A95300891316 /* uzaklikViewController.h */,
+				C3220C441926A95300891316 /* uzaklikViewController.m */,
+				C34A7164191ACB870096A427 /* positionViewController.h */,
+				C34A7165191ACB870096A427 /* positionViewController.m */,
+				C34A7167191ADA520096A427 /* positionView.h */,
+				C34A7168191ADA520096A427 /* positionView.m */,
 				C3B0B87D190279AF0044426B /* Images.xcassets */,
 				C3B0B86C190279AF0044426B /* Supporting Files */,
+				C3E5578B190C3DB000C728EE /* WebServis.h */,
+				C3E5578C190C3DB000C728EE /* WebServis.m */,
 			);
 			path = Museum;
 			sourceTree = "<group>";
@@ -126,6 +198,9 @@
 		C3B0B86C190279AF0044426B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C39B6A741928C12300C1CE4E /* cerceve.png */,
+				C39B6A761928C92A00C1CE4E /* me.png */,
+				C3220C411926958B00891316 /* takip.png */,
 				C3B0B86D190279AF0044426B /* Museum-Info.plist */,
 				C3B0B86E190279AF0044426B /* InfoPlist.strings */,
 				C3B0B871190279AF0044426B /* main.m */,
@@ -150,6 +225,14 @@
 				C3B0B88D190279AF0044426B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3F07BC41905A487007A8F7A /* OtherFile */ = {
+			isa = PBXGroup;
+			children = (
+				C3F07BC51905A497007A8F7A /* openingpicture.jpg */,
+			);
+			name = OtherFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +282,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Ali BOZOĞ";
 				TargetAttributes = {
+					C3B0B861190279AF0044426B = {
+						DevelopmentTeam = 63HE2T6EXY;
+					};
 					C3B0B882190279AF0044426B = {
 						TestTargetID = C3B0B861190279AF0044426B;
 					};
@@ -229,8 +315,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3B0B87E190279AF0044426B /* Images.xcassets in Resources */,
+				C3F07BC61905A497007A8F7A /* openingpicture.jpg in Resources */,
+				C3220C421926958B00891316 /* takip.png in Resources */,
 				C3B0B870190279AF0044426B /* InfoPlist.strings in Resources */,
 				C3B0B879190279AF0044426B /* Main.storyboard in Resources */,
+				C39B6A751928C12300C1CE4E /* cerceve.png in Resources */,
+				C39B6A771928C92A00C1CE4E /* me.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +339,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3B0B87C190279AF0044426B /* ViewController.m in Sources */,
+				C3220C451926A95300891316 /* uzaklikViewController.m in Sources */,
+				C39B6A7A1928DC6200C1CE4E /* detail2ViewController.m in Sources */,
+				C34A7169191ADA520096A427 /* positionView.m in Sources */,
+				C31BB1E51905AC3000CB1214 /* listBeaconTableViewController.m in Sources */,
+				C3F07BC31905A2ED007A8F7A /* openingViewController.m in Sources */,
+				C3E5578D190C3DB000C728EE /* WebServis.m in Sources */,
+				C39D8DBC190DA9ED0022E072 /* detailViewController.m in Sources */,
+				C31BB1E81905ACF100CB1214 /* listBeaconTableViewCell.m in Sources */,
 				C3B0B876190279AF0044426B /* AppDelegate.m in Sources */,
 				C3B0B872190279AF0044426B /* main.m in Sources */,
+				C34A7166191ACB870096A427 /* positionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Museum/Museum.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Museum/Museum-Prefix.pch";
 				INFOPLIST_FILE = "Museum/Museum-Info.plist";
@@ -389,6 +488,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Museum/Museum.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Museum/Museum-Prefix.pch";
 				INFOPLIST_FILE = "Museum/Museum-Info.plist";
@@ -456,6 +556,7 @@
 				C3B0B896190279AF0044426B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3B0B897190279AF0044426B /* Build configuration list for PBXNativeTarget "MuseumTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +565,7 @@
 				C3B0B899190279AF0044426B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
